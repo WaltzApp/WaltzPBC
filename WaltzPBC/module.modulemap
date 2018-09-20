@@ -1,0 +1,6 @@
+framework module PBCNative [system] {
+  umbrella header "pbc.h"
+
+  export *
+  module * { export * }
+}
