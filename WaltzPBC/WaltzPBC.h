@@ -1,6 +1,6 @@
 //
-//  PBC.h
-//  PBC
+//  WaltzPBC.h
+//  WaltzPBC
 //
 //  Created by Guillaume Vachon on 2018-06-21.
 //  Copyright © 2018 Waltz. All rights reserved.
@@ -16,3 +16,4 @@ FOUNDATION_EXPORT const unsigned char PBCVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PBC/PublicHeader.h>
 
+#import "pbc.h"

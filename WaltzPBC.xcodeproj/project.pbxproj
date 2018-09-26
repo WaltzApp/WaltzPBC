@@ -8,81 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		8A709874215443D200C8E9EF /* libgmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A709852215443D200C8E9EF /* libgmp.a */; };
-		8A709875215443D200C8E9EF /* PBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A709854215443D200C8E9EF /* PBC.swift */; };
+		8A709875215443D200C8E9EF /* WaltzPBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A709854215443D200C8E9EF /* WaltzPBC.swift */; };
 		8A709876215443D200C8E9EF /* pbc_multiz.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709856215443D200C8E9EF /* pbc_multiz.h */; };
-		8A709877215443D200C8E9EF /* pbc_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709857215443D200C8E9EF /* pbc_utils.h */; };
-		8A709878215443D200C8E9EF /* pbc_pairing.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709858215443D200C8E9EF /* pbc_pairing.h */; };
-		8A709879215443D200C8E9EF /* pbc_i_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709859215443D200C8E9EF /* pbc_i_param.h */; };
+		8A709877215443D200C8E9EF /* pbc_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709857215443D200C8E9EF /* pbc_utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A709878215443D200C8E9EF /* pbc_pairing.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709858215443D200C8E9EF /* pbc_pairing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A709879215443D200C8E9EF /* pbc_i_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709859215443D200C8E9EF /* pbc_i_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A70987A215443D200C8E9EF /* pbc_fieldquadratic.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985A215443D200C8E9EF /* pbc_fieldquadratic.h */; };
-		8A70987B215443D200C8E9EF /* pbc_a_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985B215443D200C8E9EF /* pbc_a_param.h */; };
-		8A70987C215443D200C8E9EF /* pbc_a1_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985C215443D200C8E9EF /* pbc_a1_param.h */; };
-		8A70987D215443D200C8E9EF /* pbc_field.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985D215443D200C8E9EF /* pbc_field.h */; };
+		8A70987B215443D200C8E9EF /* pbc_a_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985B215443D200C8E9EF /* pbc_a_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A70987C215443D200C8E9EF /* pbc_a1_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985C215443D200C8E9EF /* pbc_a1_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A70987D215443D200C8E9EF /* pbc_field.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985D215443D200C8E9EF /* pbc_field.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A70987E215443D200C8E9EF /* pbc_z.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985E215443D200C8E9EF /* pbc_z.h */; };
 		8A70987F215443D200C8E9EF /* pbc_poly.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985F215443D200C8E9EF /* pbc_poly.h */; };
 		8A709880215443D200C8E9EF /* pbc_fp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709860215443D200C8E9EF /* pbc_fp.h */; };
-		8A709881215443D200C8E9EF /* gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709861215443D200C8E9EF /* gmp.h */; };
+		8A709881215443D200C8E9EF /* gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709861215443D200C8E9EF /* gmp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A709882215443D200C8E9EF /* pbc_hilbert.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709862215443D200C8E9EF /* pbc_hilbert.h */; };
-		8A709883215443D200C8E9EF /* pbc_curve.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709863215443D200C8E9EF /* pbc_curve.h */; };
-		8A709884215443D200C8E9EF /* pbc_g_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709864215443D200C8E9EF /* pbc_g_param.h */; };
-		8A709885215443D200C8E9EF /* pbc_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709865215443D200C8E9EF /* pbc_param.h */; };
-		8A709886215443D200C8E9EF /* pbc_random.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709866215443D200C8E9EF /* pbc_random.h */; };
-		8A709887215443D200C8E9EF /* pbc_f_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709867215443D200C8E9EF /* pbc_f_param.h */; };
+		8A709883215443D200C8E9EF /* pbc_curve.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709863215443D200C8E9EF /* pbc_curve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A709884215443D200C8E9EF /* pbc_g_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709864215443D200C8E9EF /* pbc_g_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A709885215443D200C8E9EF /* pbc_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709865215443D200C8E9EF /* pbc_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A709886215443D200C8E9EF /* pbc_random.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709866215443D200C8E9EF /* pbc_random.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A709887215443D200C8E9EF /* pbc_f_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709867215443D200C8E9EF /* pbc_f_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A709888215443D200C8E9EF /* pbc_test.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709868215443D200C8E9EF /* pbc_test.h */; };
-		8A709889215443D200C8E9EF /* pbc_mnt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709869215443D200C8E9EF /* pbc_mnt.h */; };
-		8A70988A215443D200C8E9EF /* pbc_d_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986A215443D200C8E9EF /* pbc_d_param.h */; };
+		8A709889215443D200C8E9EF /* pbc_mnt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709869215443D200C8E9EF /* pbc_mnt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A70988A215443D200C8E9EF /* pbc_d_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986A215443D200C8E9EF /* pbc_d_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A70988B215443D200C8E9EF /* pbc_singular.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986B215443D200C8E9EF /* pbc_singular.h */; };
 		8A70988C215443D200C8E9EF /* pbc_ternary_extension_field.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986C215443D200C8E9EF /* pbc_ternary_extension_field.h */; };
-		8A70988D215443D200C8E9EF /* pbc_memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986D215443D200C8E9EF /* pbc_memory.h */; };
-		8A70988E215443D200C8E9EF /* pbc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986E215443D200C8E9EF /* pbc.h */; };
-		8A70988F215443D200C8E9EF /* pbc_e_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986F215443D200C8E9EF /* pbc_e_param.h */; };
+		8A70988D215443D200C8E9EF /* pbc_memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986D215443D200C8E9EF /* pbc_memory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A70988E215443D200C8E9EF /* pbc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986E215443D200C8E9EF /* pbc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A70988F215443D200C8E9EF /* pbc_e_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986F215443D200C8E9EF /* pbc_e_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A709890215443D200C8E9EF /* libpbc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A709870215443D200C8E9EF /* libpbc.a */; };
-		8A709891215443D200C8E9EF /* PBC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709872215443D200C8E9EF /* PBC.h */; };
+		8A709891215443D200C8E9EF /* WaltzPBC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709872215443D200C8E9EF /* WaltzPBC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8A0FC52C21235C7D00C132B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A5D2A13210A6CFA005C685A /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C91BA85676DB80273B44BEB3EC75B15C;
-			remoteInfo = JWTDecode;
-		};
-		8A5D2A1A210A6CFA005C685A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A5D2A13210A6CFA005C685A /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F04B72149F74A324E87633DC57A13BC8;
-			remoteInfo = Alamofire;
-		};
-		8A5D2A1C210A6CFA005C685A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A5D2A13210A6CFA005C685A /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 54EB19611CB2512CBE4D37184501A166;
-			remoteInfo = Freddy;
-		};
-		8A5D2A20210A6CFA005C685A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A5D2A13210A6CFA005C685A /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7827A9B94881F860B23FE683A9A79EAD;
-			remoteInfo = "Pods-WaltzTransaction";
-		};
-		8AB7F65B210B5E35001F4970 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A5D2A13210A6CFA005C685A /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55EA5C958BE69AF3FE97E0BCE8596786;
-			remoteInfo = UICKeyChainStore;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		810F5B86E3461321EF8CBDBA /* Pods_WaltzTransaction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaltzTransaction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5D2998210A3D29005C685A /* WaltzPBC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaltzPBC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A5D2A13210A6CFA005C685A /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		8A709852215443D200C8E9EF /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgmp.a; sourceTree = "<group>"; };
-		8A709854215443D200C8E9EF /* PBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBC.swift; sourceTree = "<group>"; };
+		8A709854215443D200C8E9EF /* WaltzPBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaltzPBC.swift; sourceTree = "<group>"; };
 		8A709856215443D200C8E9EF /* pbc_multiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbc_multiz.h; sourceTree = "<group>"; };
 		8A709857215443D200C8E9EF /* pbc_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbc_utils.h; sourceTree = "<group>"; };
 		8A709858215443D200C8E9EF /* pbc_pairing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbc_pairing.h; sourceTree = "<group>"; };
@@ -110,11 +70,9 @@
 		8A70986E215443D200C8E9EF /* pbc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbc.h; sourceTree = "<group>"; };
 		8A70986F215443D200C8E9EF /* pbc_e_param.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbc_e_param.h; sourceTree = "<group>"; };
 		8A709870215443D200C8E9EF /* libpbc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpbc.a; sourceTree = "<group>"; };
-		8A709872215443D200C8E9EF /* PBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBC.h; sourceTree = "<group>"; };
+		8A709872215443D200C8E9EF /* WaltzPBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaltzPBC.h; sourceTree = "<group>"; };
 		8A709873215443D200C8E9EF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AB7F6962110E098001F4970 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
-		E7760A4545B6BC4D6CE9AF80 /* Pods-WaltzTransaction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaltzTransaction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaltzTransaction/Pods-WaltzTransaction.debug.xcconfig"; sourceTree = "<group>"; };
-		F2BE40D56780129E773732A2 /* Pods-WaltzTransaction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaltzTransaction.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaltzTransaction/Pods-WaltzTransaction.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,23 +88,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		374EE192E44BD181420ACE94 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E7760A4545B6BC4D6CE9AF80 /* Pods-WaltzTransaction.debug.xcconfig */,
-				F2BE40D56780129E773732A2 /* Pods-WaltzTransaction.release.xcconfig */,
-				8A5D2A13210A6CFA005C685A /* Pods.xcodeproj */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		8A5D2942210A306F005C685A = {
 			isa = PBXGroup;
 			children = (
 				8A709851215443D200C8E9EF /* WaltzPBC */,
 				8A5D294C210A306F005C685A /* Products */,
 				8A5D29B8210A4094005C685A /* Frameworks */,
-				374EE192E44BD181420ACE94 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,21 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				8AB7F6962110E098001F4970 /* libiconv.tbd */,
-				810F5B86E3461321EF8CBDBA /* Pods_WaltzTransaction.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8A5D2A14210A6CFA005C685A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8A5D2A1B210A6CFA005C685A /* Alamofire.framework */,
-				8A5D2A1D210A6CFA005C685A /* Freddy.framework */,
-				8A0FC52D21235C7D00C132B9 /* JWTDecode.framework */,
-				8A5D2A21210A6CFA005C685A /* Pods_WaltzTransaction.framework */,
-				8AB7F65C210B5E35001F4970 /* UICKeyChainStore.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8A709851215443D200C8E9EF /* WaltzPBC */ = {
@@ -185,8 +119,8 @@
 				8A709855215443D200C8E9EF /* Headers */,
 				8A709852215443D200C8E9EF /* libgmp.a */,
 				8A709870215443D200C8E9EF /* libpbc.a */,
-				8A709854215443D200C8E9EF /* PBC.swift */,
-				8A709872215443D200C8E9EF /* PBC.h */,
+				8A709854215443D200C8E9EF /* WaltzPBC.swift */,
+				8A709872215443D200C8E9EF /* WaltzPBC.h */,
 				8A709873215443D200C8E9EF /* Info.plist */,
 			);
 			path = WaltzPBC;
@@ -232,10 +166,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A70987E215443D200C8E9EF /* pbc_z.h in Headers */,
+				8A709891215443D200C8E9EF /* WaltzPBC.h in Headers */,
+				8A70988E215443D200C8E9EF /* pbc.h in Headers */,
 				8A70987B215443D200C8E9EF /* pbc_a_param.h in Headers */,
-				8A709882215443D200C8E9EF /* pbc_hilbert.h in Headers */,
-				8A70988B215443D200C8E9EF /* pbc_singular.h in Headers */,
 				8A70987D215443D200C8E9EF /* pbc_field.h in Headers */,
 				8A70988A215443D200C8E9EF /* pbc_d_param.h in Headers */,
 				8A709883215443D200C8E9EF /* pbc_curve.h in Headers */,
@@ -244,21 +177,22 @@
 				8A709885215443D200C8E9EF /* pbc_param.h in Headers */,
 				8A70988F215443D200C8E9EF /* pbc_e_param.h in Headers */,
 				8A709879215443D200C8E9EF /* pbc_i_param.h in Headers */,
-				8A70987F215443D200C8E9EF /* pbc_poly.h in Headers */,
-				8A70987A215443D200C8E9EF /* pbc_fieldquadratic.h in Headers */,
-				8A709888215443D200C8E9EF /* pbc_test.h in Headers */,
 				8A709878215443D200C8E9EF /* pbc_pairing.h in Headers */,
 				8A709877215443D200C8E9EF /* pbc_utils.h in Headers */,
 				8A709889215443D200C8E9EF /* pbc_mnt.h in Headers */,
 				8A709887215443D200C8E9EF /* pbc_f_param.h in Headers */,
 				8A70987C215443D200C8E9EF /* pbc_a1_param.h in Headers */,
+				8A709884215443D200C8E9EF /* pbc_g_param.h in Headers */,
+				8A70988D215443D200C8E9EF /* pbc_memory.h in Headers */,
+				8A70987E215443D200C8E9EF /* pbc_z.h in Headers */,
+				8A70988B215443D200C8E9EF /* pbc_singular.h in Headers */,
+				8A70987A215443D200C8E9EF /* pbc_fieldquadratic.h in Headers */,
 				8A70988C215443D200C8E9EF /* pbc_ternary_extension_field.h in Headers */,
+				8A709888215443D200C8E9EF /* pbc_test.h in Headers */,
+				8A70987F215443D200C8E9EF /* pbc_poly.h in Headers */,
 				8A709876215443D200C8E9EF /* pbc_multiz.h in Headers */,
 				8A709880215443D200C8E9EF /* pbc_fp.h in Headers */,
-				8A709884215443D200C8E9EF /* pbc_g_param.h in Headers */,
-				8A709891215443D200C8E9EF /* PBC.h in Headers */,
-				8A70988D215443D200C8E9EF /* pbc_memory.h in Headers */,
-				8A70988E215443D200C8E9EF /* pbc.h in Headers */,
+				8A709882215443D200C8E9EF /* pbc_hilbert.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,56 +244,12 @@
 			mainGroup = 8A5D2942210A306F005C685A;
 			productRefGroup = 8A5D294C210A306F005C685A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 8A5D2A14210A6CFA005C685A /* Products */;
-					ProjectRef = 8A5D2A13210A6CFA005C685A /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8A5D2997210A3D29005C685A /* WaltzPBC */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		8A0FC52D21235C7D00C132B9 /* JWTDecode.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = JWTDecode.framework;
-			remoteRef = 8A0FC52C21235C7D00C132B9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8A5D2A1B210A6CFA005C685A /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 8A5D2A1A210A6CFA005C685A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8A5D2A1D210A6CFA005C685A /* Freddy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Freddy.framework;
-			remoteRef = 8A5D2A1C210A6CFA005C685A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8A5D2A21210A6CFA005C685A /* Pods_WaltzTransaction.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_WaltzTransaction.framework;
-			remoteRef = 8A5D2A20210A6CFA005C685A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8AB7F65C210B5E35001F4970 /* UICKeyChainStore.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = UICKeyChainStore.framework;
-			remoteRef = 8AB7F65B210B5E35001F4970 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8A5D2996210A3D29005C685A /* Resources */ = {
@@ -376,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A709875215443D200C8E9EF /* PBC.swift in Sources */,
+				8A709875215443D200C8E9EF /* WaltzPBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

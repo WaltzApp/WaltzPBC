@@ -1,4 +1,0 @@
-module PBCNative [system] {
-  umbrella "Headers"
-  export *
-}
