@@ -14,16 +14,16 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8A5D2997210A3D29005C685A"
-               BuildableName = "WaltzPBC.framework"
-               BlueprintName = "WaltzPBC"
+               BlueprintIdentifier = "8A319FD52171178B00BE1282"
+               BuildableName = "WaltzPBCQA.framework"
+               BlueprintName = "WaltzPBCQA"
                ReferencedContainer = "container:WaltzPBC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -33,7 +33,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8A5D2997210A3D29005C685A"
-            BuildableName = "WaltzPBC.framework"
-            BlueprintName = "WaltzPBC"
+            BlueprintIdentifier = "8A319FD52171178B00BE1282"
+            BuildableName = "WaltzPBCQA.framework"
+            BlueprintName = "WaltzPBCQA"
             ReferencedContainer = "container:WaltzPBC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,7 +55,7 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -63,18 +63,18 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8A5D2997210A3D29005C685A"
-            BuildableName = "WaltzPBC.framework"
-            BlueprintName = "WaltzPBC"
+            BlueprintIdentifier = "8A319FD52171178B00BE1282"
+            BuildableName = "WaltzPBCQA.framework"
+            BlueprintName = "WaltzPBCQA"
             ReferencedContainer = "container:WaltzPBC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Release">
+      buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

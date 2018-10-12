@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A319FD72171178B00BE1282 /* WaltzPBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A709854215443D200C8E9EF /* WaltzPBC.swift */; };
+		8A319FD92171178B00BE1282 /* libgmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A709852215443D200C8E9EF /* libgmp.a */; };
+		8A319FDA2171178B00BE1282 /* libpbc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A709870215443D200C8E9EF /* libpbc.a */; };
+		8A319FDD2171178B00BE1282 /* pbc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986E215443D200C8E9EF /* pbc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FDE2171178B00BE1282 /* pbc_a_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985B215443D200C8E9EF /* pbc_a_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FDF2171178B00BE1282 /* pbc_field.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985D215443D200C8E9EF /* pbc_field.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FE02171178B00BE1282 /* pbc_d_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986A215443D200C8E9EF /* pbc_d_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FE12171178B00BE1282 /* pbc_curve.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709863215443D200C8E9EF /* pbc_curve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FE22171178B00BE1282 /* pbc_random.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709866215443D200C8E9EF /* pbc_random.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FE32171178B00BE1282 /* gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709861215443D200C8E9EF /* gmp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FE42171178B00BE1282 /* pbc_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709865215443D200C8E9EF /* pbc_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FE52171178B00BE1282 /* pbc_e_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986F215443D200C8E9EF /* pbc_e_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FE62171178B00BE1282 /* pbc_i_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709859215443D200C8E9EF /* pbc_i_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FE72171178B00BE1282 /* pbc_pairing.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709858215443D200C8E9EF /* pbc_pairing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FE82171178B00BE1282 /* pbc_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709857215443D200C8E9EF /* pbc_utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FE92171178B00BE1282 /* pbc_mnt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709869215443D200C8E9EF /* pbc_mnt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FEA2171178B00BE1282 /* pbc_f_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709867215443D200C8E9EF /* pbc_f_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FEB2171178B00BE1282 /* pbc_a1_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985C215443D200C8E9EF /* pbc_a1_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FEC2171178B00BE1282 /* pbc_g_param.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709864215443D200C8E9EF /* pbc_g_param.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FED2171178B00BE1282 /* pbc_memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986D215443D200C8E9EF /* pbc_memory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A319FEE2171178B00BE1282 /* pbc_z.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985E215443D200C8E9EF /* pbc_z.h */; };
+		8A319FEF2171178B00BE1282 /* pbc_singular.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986B215443D200C8E9EF /* pbc_singular.h */; };
+		8A319FF02171178B00BE1282 /* pbc_fieldquadratic.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985A215443D200C8E9EF /* pbc_fieldquadratic.h */; };
+		8A319FF12171178B00BE1282 /* pbc_ternary_extension_field.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70986C215443D200C8E9EF /* pbc_ternary_extension_field.h */; };
+		8A319FF22171178B00BE1282 /* pbc_test.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709868215443D200C8E9EF /* pbc_test.h */; };
+		8A319FF32171178B00BE1282 /* pbc_poly.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A70985F215443D200C8E9EF /* pbc_poly.h */; };
+		8A319FF42171178B00BE1282 /* pbc_multiz.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709856215443D200C8E9EF /* pbc_multiz.h */; };
+		8A319FF52171178B00BE1282 /* pbc_fp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709860215443D200C8E9EF /* pbc_fp.h */; };
+		8A319FF62171178B00BE1282 /* pbc_hilbert.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709862215443D200C8E9EF /* pbc_hilbert.h */; };
+		8A319FFF2171188F00BE1282 /* WaltzPBCQA.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A319FFD2171188800BE1282 /* WaltzPBCQA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A709874215443D200C8E9EF /* libgmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A709852215443D200C8E9EF /* libgmp.a */; };
 		8A709875215443D200C8E9EF /* WaltzPBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A709854215443D200C8E9EF /* WaltzPBC.swift */; };
 		8A709876215443D200C8E9EF /* pbc_multiz.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A709856215443D200C8E9EF /* pbc_multiz.h */; };
@@ -40,6 +70,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A319FFB2171178B00BE1282 /* WaltzPBCQA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaltzPBCQA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A319FFC2171178B00BE1282 /* WaltzPBC copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "WaltzPBC copy-Info.plist"; path = "/Users/gvachon/Documents/Project/WaltzPBC/WaltzPBC copy-Info.plist"; sourceTree = "<absolute>"; };
+		8A319FFD2171188800BE1282 /* WaltzPBCQA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaltzPBCQA.h; sourceTree = "<group>"; };
 		8A5D2998210A3D29005C685A /* WaltzPBC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaltzPBC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A709852215443D200C8E9EF /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgmp.a; sourceTree = "<group>"; };
 		8A709854215443D200C8E9EF /* WaltzPBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaltzPBC.swift; sourceTree = "<group>"; };
@@ -76,6 +109,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8A319FD82171178B00BE1282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A319FD92171178B00BE1282 /* libgmp.a in Frameworks */,
+				8A319FDA2171178B00BE1282 /* libpbc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A5D2994210A3D29005C685A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,6 +136,7 @@
 				8A709851215443D200C8E9EF /* WaltzPBC */,
 				8A5D294C210A306F005C685A /* Products */,
 				8A5D29B8210A4094005C685A /* Frameworks */,
+				8A319FFC2171178B00BE1282 /* WaltzPBC copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				8A5D2998210A3D29005C685A /* WaltzPBC.framework */,
+				8A319FFB2171178B00BE1282 /* WaltzPBCQA.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +165,7 @@
 				8A709870215443D200C8E9EF /* libpbc.a */,
 				8A709854215443D200C8E9EF /* WaltzPBC.swift */,
 				8A709872215443D200C8E9EF /* WaltzPBC.h */,
+				8A319FFD2171188800BE1282 /* WaltzPBCQA.h */,
 				8A709873215443D200C8E9EF /* Info.plist */,
 			);
 			path = WaltzPBC;
@@ -162,6 +207,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		8A319FDB2171178B00BE1282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A319FDD2171178B00BE1282 /* pbc.h in Headers */,
+				8A319FDE2171178B00BE1282 /* pbc_a_param.h in Headers */,
+				8A319FDF2171178B00BE1282 /* pbc_field.h in Headers */,
+				8A319FE02171178B00BE1282 /* pbc_d_param.h in Headers */,
+				8A319FE12171178B00BE1282 /* pbc_curve.h in Headers */,
+				8A319FE22171178B00BE1282 /* pbc_random.h in Headers */,
+				8A319FE32171178B00BE1282 /* gmp.h in Headers */,
+				8A319FE42171178B00BE1282 /* pbc_param.h in Headers */,
+				8A319FE52171178B00BE1282 /* pbc_e_param.h in Headers */,
+				8A319FE62171178B00BE1282 /* pbc_i_param.h in Headers */,
+				8A319FE72171178B00BE1282 /* pbc_pairing.h in Headers */,
+				8A319FE82171178B00BE1282 /* pbc_utils.h in Headers */,
+				8A319FE92171178B00BE1282 /* pbc_mnt.h in Headers */,
+				8A319FEA2171178B00BE1282 /* pbc_f_param.h in Headers */,
+				8A319FEB2171178B00BE1282 /* pbc_a1_param.h in Headers */,
+				8A319FEC2171178B00BE1282 /* pbc_g_param.h in Headers */,
+				8A319FED2171178B00BE1282 /* pbc_memory.h in Headers */,
+				8A319FEE2171178B00BE1282 /* pbc_z.h in Headers */,
+				8A319FEF2171178B00BE1282 /* pbc_singular.h in Headers */,
+				8A319FF02171178B00BE1282 /* pbc_fieldquadratic.h in Headers */,
+				8A319FF12171178B00BE1282 /* pbc_ternary_extension_field.h in Headers */,
+				8A319FF22171178B00BE1282 /* pbc_test.h in Headers */,
+				8A319FF32171178B00BE1282 /* pbc_poly.h in Headers */,
+				8A319FF42171178B00BE1282 /* pbc_multiz.h in Headers */,
+				8A319FF52171178B00BE1282 /* pbc_fp.h in Headers */,
+				8A319FF62171178B00BE1282 /* pbc_hilbert.h in Headers */,
+				8A319FFF2171188F00BE1282 /* WaltzPBCQA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A5D2995210A3D29005C685A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +278,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8A319FD52171178B00BE1282 /* WaltzPBCQA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A319FF82171178B00BE1282 /* Build configuration list for PBXNativeTarget "WaltzPBCQA" */;
+			buildPhases = (
+				8A319FD62171178B00BE1282 /* Sources */,
+				8A319FD82171178B00BE1282 /* Frameworks */,
+				8A319FDB2171178B00BE1282 /* Headers */,
+				8A319FF72171178B00BE1282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaltzPBCQA;
+			productName = PBC;
+			productReference = 8A319FFB2171178B00BE1282 /* WaltzPBCQA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		8A5D2997210A3D29005C685A /* WaltzPBC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A5D299D210A3D29005C685A /* Build configuration list for PBXNativeTarget "WaltzPBC" */;
@@ -247,11 +344,19 @@
 			projectRoot = "";
 			targets = (
 				8A5D2997210A3D29005C685A /* WaltzPBC */,
+				8A319FD52171178B00BE1282 /* WaltzPBCQA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8A319FF72171178B00BE1282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A5D2996210A3D29005C685A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,6 +367,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8A319FD62171178B00BE1282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A319FD72171178B00BE1282 /* WaltzPBC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A5D2993210A3D29005C685A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,6 +386,88 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8A319FF92171178B00BE1282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "WaltzPBC copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WaltzPBC",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				"OTHER_LDFLAGS[arch=*]" = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.waltz.WaltzPBC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/WaltzPBC\"";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A319FFA2171178B00BE1282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "WaltzPBC copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WaltzPBC",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.waltz.WaltzPBC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/WaltzPBC\"";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8A5D2952210A306F005C685A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,6 +665,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8A319FF82171178B00BE1282 /* Build configuration list for PBXNativeTarget "WaltzPBCQA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A319FF92171178B00BE1282 /* Debug */,
+				8A319FFA2171178B00BE1282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8A5D2946210A306F005C685A /* Build configuration list for PBXProject "WaltzPBC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
